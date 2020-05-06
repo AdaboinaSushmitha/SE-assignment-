@@ -32,3 +32,27 @@ class DoubleRoom implements  Serializable
         this.contact2=contact2;
         this.gender2=gender2;
     }
+public String DoubleRoom(String string, int i, String string2, String string3, int j, String string4) {
+		// TODO Auto-generated method stub
+		return "Already booked";
+	}
+	public static void main(String[] args)
+	{
+		int i ,j;
+		String s1,s2,s3,s4;
+		Scanner sc=new Scanner(System.in);
+		System.out.print("Enter Customer name:");
+		s1=sc.nextLine();
+		System.out.println("Enter contact:");
+		i=sc.nextInt();
+		System.out.println("Enter Gender:");
+		s2=sc.nextLine();
+		System.out.println("Enter Customer 2 Name:");
+		s3=sc.nextLine();
+		System.out.println("Enter contact 2:");
+		j=sc.nextInt();
+		System.out.println("Enter gender:");
+		s4=sc.nextLine();
+	}
+	
+}
